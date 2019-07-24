@@ -23,7 +23,7 @@ withdraw:
 age: 19
 
 info:
-  app.name: sl-authserver
+  app.name: kc-authserver
   company.name: baseframe
   
 feign:
