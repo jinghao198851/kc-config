@@ -1,0 +1,47 @@
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 60000
+ribbon:
+  ReadTimeout: 10000
+  ConnectTimeout: 10000
+zuul:
+  sensitive-headers: Access-Control-Allow-Origin
+  ignored-headers: Access-Control-Allow-Origin,H-APP-Id,Token,APPToken
+#  ignored-services: microcloud-dept #用于屏蔽单个服务
+  prefix: /sl
+  ignored-services: "*"   #屏蔽多个服务
+  routes:
+    api-auth:
+      path: /apiAuth/**
+      serviceId: kc-authserver
+    api-lottery:
+      path: /apiLottery/**
+      serviceId: kc-lotteryserver
+#    api-msg:
+#      path: /apiMsg/**
+#      serviceId: sl-message
+    api-material:
+      path: /apiMaterial/**
+      serviceId: kc-materialservice
+#    api-task:
+#      path: /apiTask/**
+#      serviceId: sl-taskservice
+# ignored-patterns: /**/demo3/**,/**/demo2/**     #禁止访问
+  max:
+    host:
+      connections: 500
+  host:
+    socket-timeout-millis: 60000
+    connect-timeout-millis: 60000  
+#zuul自定义异常处理    
+  SendErrorFilter:
+    post: 
+      disable: true    
+
+info:
+  app.name: kc-gatewayservice
+  company.name: baseframe  
