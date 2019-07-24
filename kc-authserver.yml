@@ -1,0 +1,44 @@
+login:
+  wxOauth2AuthorizeUrl: https://open.weixin.qq.com/connect/oauth2/authorize?appid={0}&redirect_uri={1}&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect
+  wxOauth2BackUrl: http://ii.sinelinked.com/mobile/transition
+  wxQrcodeGenerateUrl: https://open.weixin.qq.com/connect/qrconnect?appid={0}&redirect_uri={1}&response_type=code&scope=snsapi_login&state=STATE#wechat_redirect
+  wxOrcodeBackUrl: https://ii.sinelinked.com/userCenter/html/login.html
+  wxAccessTokenUrl: https://api.weixin.qq.com/sns/oauth2/access_token?appid={0}&secret={1}&code={2}&grant_type=authorization_code
+  wxUserInfoUrl: https://api.weixin.qq.com/sns/userinfo?access_token={0}&openid={1}&lang=zh_CN
+  wxSmallProgramUrl: https://api.weixin.qq.com/sns/jscode2session?appid={0}&secret={1}&js_code={2}&grant_type=authorization_code
+  wxGzhAppId: wxf71897ab7245c61f
+  wxGzhAppSecret: 9cc75e45327de02866b3c56fb6aa85e1
+  wxKfptAppId: wx77a3be2b980f9c1c
+  wxKfptAppSecret: 212b6b0c8e0e9e487d628584b8be29a2
+  wxXcxAppId: wx3facaaa31f346d16
+  wxXcxAppSecret: 10a1736382075f28c3035f6d6ddd28b1
+wx:
+  mchId: 1518001591
+  mchKey: HK787hjhHJ8956JKNCXqwzmop5sfev23
+  appId: wxe606548e5709ce55
+withdraw: 
+  url: http://60.205.177.199/tg_pay/pay/payBank
+  bankResultUrl: http://60.205.177.199/tg_pay/pay/queryPayBank
+  changeUrl: http://60.205.177.199/tg_pay/pay/entPay
+age: 19
+
+info:
+  app.name: sl-authserver
+  company.name: baseframe
+  
+feign:
+  hystrix:
+    enabled: true       
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 10000
+#ribbon的超时时间
+ribbon:
+  ReadTimeout: 7000
+  ConnectTimeout: 5000
+  eureka:
+    enabled: true 
