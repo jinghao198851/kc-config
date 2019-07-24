@@ -1,0 +1,13 @@
+env:
+  dev
+server:
+  port: 7004
+
+black:
+  url: 192.168.1.1,192.168.1.2,192.168.1.3
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    password: jinghao
+    username: jinghao
