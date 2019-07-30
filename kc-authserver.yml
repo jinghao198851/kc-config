@@ -20,7 +20,7 @@ withdraw:
   url: http://60.205.177.199/tg_pay/pay/payBank
   bankResultUrl: http://60.205.177.199/tg_pay/pay/queryPayBank
   changeUrl: http://60.205.177.199/tg_pay/pay/entPay
-age: 19
+age: 29
 
 info:
   app.name: kc-authserver
