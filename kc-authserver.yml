@@ -20,6 +20,9 @@ withdraw:
   url: http://60.205.177.199/tg_pay/pay/payBank
   bankResultUrl: http://60.205.177.199/tg_pay/pay/queryPayBank
   changeUrl: http://60.205.177.199/tg_pay/pay/entPay
+applet:
+  paymentUrl: http://60.205.177.199/tg_pay/pay/unifiedOrder
+  queryUrl: http://60.205.177.199/tg_pay/pay/queryOrder
 age: 29
 
 info:
