@@ -27,9 +27,10 @@ zuul:
     api-material:
       path: /apiMaterial/**
       serviceId: kc-materialservice
-#    api-task:
-#      path: /apiTask/**
-#      serviceId: sl-taskservice
+    api-task:
+      path: /apiTask/**
+#       serviceId: sl-taskservice
+      url: ws://localhost:8013/
 # ignored-patterns: /**/demo3/**,/**/demo2/**     #禁止访问
   max:
     host:
