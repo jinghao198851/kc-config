@@ -27,16 +27,10 @@ zuul:
     api-material:
       path: /apiMaterial/**
       serviceId: kc-materialservice
-    api-task:
-      path: /apiTask/**
+#     api-task:
+#       path: /apiTask/**
 #       serviceId: sl-taskservice
-      url: ws://kc-lotteryserver/
-  ws:
-    brokerages:
-      service-notify:
-        end-points: /websocket
-        brokers:  /topic
-        destination-prefixes: /send    
+  
 # ignored-patterns: /**/demo3/**,/**/demo2/**     #禁止访问
   max:
     host:
