@@ -30,7 +30,7 @@ zuul:
     api-task:
       path: /apiTask/**
 #       serviceId: sl-taskservice
-      url: ws://localhost:8013/
+      url: ws://kc-lotteryserver/
 # ignored-patterns: /**/demo3/**,/**/demo2/**     #禁止访问
   max:
     host:
