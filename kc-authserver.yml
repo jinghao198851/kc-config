@@ -10,8 +10,8 @@ login:
   wxGzhAppSecret: 9cc75e45327de02866b3c56fb6aa85e1
   wxKfptAppId: wx77a3be2b980f9c1c
   wxKfptAppSecret: 212b6b0c8e0e9e487d628584b8be29a2
-  wxXcxAppId: wx3facaaa31f346d16
-  wxXcxAppSecret: 10a1736382075f28c3035f6d6ddd28b1
+  wxXcxAppId: wx6333c1e50ece7443
+  wxXcxAppSecret: 8e7d9f7a77f723f259be5d35d5b703d3
 wx:
   mchId: 1518001591
   mchKey: HK787hjhHJ8956JKNCXqwzmop5sfev23
