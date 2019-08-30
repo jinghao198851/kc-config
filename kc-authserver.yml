@@ -17,14 +17,14 @@ wx:
   mchKey: HK787hjhHJ8956JKNCXqwzmop5sfev23
   appId: wxe606548e5709ce55
 withdraw: 
-  url: http://60.205.177.199/tg_pay/pay/payBank
-  bankResultUrl: http://60.205.177.199/tg_pay/pay/queryPayBank
-  changeUrl: http://60.205.177.199/tg_pay/pay/entPay
+  url: http://ii.sinelinked.com/tg_pay/pay/payBank
+  bankResultUrl: http://ii.sinelinked.com/tg_pay/pay/queryPayBank
+  changeUrl: http://ii.sinelinked.com/tg_pay/pay/entPay
 applet:
-  paymentUrl: http://60.205.177.199/tg_pay/pay/unifiedOrder
-  queryUrl: http://60.205.177.199/tg_pay/pay/queryOrder
-  gzhPaymentUrl: http://60.205.177.199/tg_pay/pay/create_order
-  gzhQueryUrl: http://60.205.177.199/tg_pay/xxxxxxx
+  paymentUrl: http://ii.sinelinked.com/tg_pay/pay/unifiedOrder
+  queryUrl: http://ii.sinelinked.com/tg_pay/pay/queryOrder
+  gzhPaymentUrl: http://ii.sinelinked.com/tg_pay/pay/create_order
+  gzhQueryUrl: http://ii.sinelinked.com/tg_pay/xxxxxxx
 gzh:
   appId: wxe606548e5709ce55
   mchId: 1518001591
