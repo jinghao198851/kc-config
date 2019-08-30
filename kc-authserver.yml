@@ -23,6 +23,12 @@ withdraw:
 applet:
   paymentUrl: http://60.205.177.199/tg_pay/pay/unifiedOrder
   queryUrl: http://60.205.177.199/tg_pay/pay/queryOrder
+  gzhPaymentUrl: http://60.205.177.199/tg_pay/pay/create_order
+  gzhQueryUrl: http://60.205.177.199/tg_pay/xxxxxxx
+gzh:
+  appId: wxe606548e5709ce55
+  mchId: 1518001591
+  mchKey: HK787hjhHJ8956JKNCXqwzmop5sfev23
 age: 29
 
 info:
