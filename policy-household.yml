@@ -1,0 +1,14 @@
+feign:
+  hystrix:
+    enabled: true       
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 10000
+#ribbon的超时时间
+ribbon:
+  ReadTimeout: 7000
+  ConnectTimeout: 5000
