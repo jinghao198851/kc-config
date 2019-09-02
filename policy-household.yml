@@ -3,6 +3,8 @@ xcx:
   smallProgramUrl: https://api.weixin.qq.com/sns/jscode2session?appid={0}&secret={1}&js_code={2}&grant_type=authorization_code
   appId: wx6333c1e50ece7443
   appSecret: 8e7d9f7a77f723f259be5d35d5b703d3
+  accessTokenUrl: https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=APPID&secret=APPSECRET
+  getQRCodeUrl: https://api.weixin.qq.com/cgi-bin/wxaapp/createwxaqrcode?access_token=ACCESS_TOKEN
 feign:
   hystrix:
     enabled: true       
