@@ -6,8 +6,8 @@ login:
   wxAccessTokenUrl: https://api.weixin.qq.com/sns/oauth2/access_token?appid={0}&secret={1}&code={2}&grant_type=authorization_code
   wxUserInfoUrl: https://api.weixin.qq.com/sns/userinfo?access_token={0}&openid={1}&lang=zh_CN
   wxSmallProgramUrl: https://api.weixin.qq.com/sns/jscode2session?appid={0}&secret={1}&js_code={2}&grant_type=authorization_code
-  wxGzhAppId: wxf71897ab7245c61f
-  wxGzhAppSecret: 9cc75e45327de02866b3c56fb6aa85e1
+  wxGzhAppId: wx7b0f687618b4c2a6
+  wxGzhAppSecret: 10cc1964f431426a0a6b57e9d9af75e7
   wxKfptAppId: wx77a3be2b980f9c1c
   wxKfptAppSecret: 212b6b0c8e0e9e487d628584b8be29a2
   wxXcxAppId: wx6333c1e50ece7443
@@ -23,8 +23,8 @@ withdraw:
 applet:
   paymentUrl: http://ii.sinelinked.com/tg_pay/pay/unifiedOrder
   queryUrl: http://ii.sinelinked.com/tg_pay/pay/queryOrder
-  gzhPaymentUrl: http://ii.sinelinked.com/tg_pay/pay/create_order
-  gzhQueryUrl: http://ii.sinelinked.com/tg_pay/xxxxxxx
+  gzhPaymentUrl: http://192.168.0.112:8080/tg_pay/pay/create_order
+  gzhQueryUrl: http://192.168.0.112:8080/tg_pay/pay/query_order
 gzh:
   appId: wxe606548e5709ce55
   mchId: 1518001591
