@@ -27,8 +27,8 @@ applet:
   gzhQueryUrl: http://192.168.0.112:8080/tg_pay/pay/query_order
 gzh:
   appId: wx7b0f687618b4c2a6
-  mchId: 1518001591
-  mchKey: HK787hjhHJ8956JKNCXqwzmop5sfev23
+  mchId: 1531248501
+  mchKey: 6764477B2AF94156A94ABCCFE07CC0BD
 age: 29
 
 info:
