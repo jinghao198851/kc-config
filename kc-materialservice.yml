@@ -14,4 +14,4 @@ ribbon:
   ConnectTimeout: 5000
   
 #OSS bucket  
-bucketName: slpt-bucket
+bucketName: kc-bucket
