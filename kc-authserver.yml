@@ -20,6 +20,7 @@ withdraw:
   url: http://ii.sinelinked.com/tg_pay/pay/payBank
   bankResultUrl: http://ii.sinelinked.com/tg_pay/pay/queryPayBank
   changeUrl: http://ii.sinelinked.com/tg_pay/pay/entPay
+  queryChangeUrl: http://ii.sinelinked.com/tg_pay/pay/queryEntPay/{0}/{1}/{2}
 applet:
   paymentUrl: http://ii.sinelinked.com/tg_pay/pay/unifiedOrder
   queryUrl: http://ii.sinelinked.com/tg_pay/pay/queryOrder
