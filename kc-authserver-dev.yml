@@ -1,11 +1,11 @@
 env:
   dev
-server:
-  port: 7009
-  tomcat:
-    max-threads: 500  #tomcat工作线程数量
-    accept-count: 500 #tomcat接受排队的最大数量
-    max-connections: 200 #tomcat处理的最大连接数
+# server:
+#   port: 7009
+#   tomcat:
+#     max-threads: 500  #tomcat工作线程数量
+#     accept-count: 500 #tomcat接受排队的最大数量
+#     max-connections: 200 #tomcat处理的最大连接数
 #mysql日志
 logging:
   level:
