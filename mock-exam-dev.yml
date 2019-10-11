@@ -1,0 +1,52 @@
+env: 
+  dev
+server:
+  port: 8037
+#mysql日志
+logging:
+  level:
+    com.base.micro.dao: debug
+#可以自动修改日志级别    
+endpoints:
+  loggers:
+    enabled: true
+    sensitive: false
+mybatis:
+  config-location: classpath:mybatis/mybatis.cfg.xml        # mybatis配置文件所在路径
+  type-aliases-package: com.micro.cloud.entity              # 所有Entity别名类所在包
+  mapper-locations:
+  - classpath:mybatis/mapper/**/*.xml                       # mapper映射文件
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: org.gjt.mm.mysql.Driver
+    url: jdbc:mysql://192.168.0.66:3306/mock_exam?useUnicode=true&characterEncoding=UTF-8&multiStatementAllow=true
+    username: root
+    password: root
+    dbcp2:
+      min-idle: 5
+      initial-size: 5
+      max-total: 5
+      max-wait-millis: 200
+  redis:
+#    host: 192.168.0.66
+#    port: 6923
+#    password: sdtgredis@26a3
+    host: 192.168.0.66
+    port: 6379
+    password: sdtg26a3
+    pool:
+      maxActive: 600
+      maxWait: 1000
+      maxIdle: 300
+      minIdle: 0
+    timeout: 100000    
+  rabbitmq:
+#    host: 47.92.135.48
+#    port: 5672
+#    username: systg
+#    password: '@26a3@' 
+    host: localhost
+    port: 5672
+    username: jinghao
+    password: jinghao
