@@ -10,6 +10,8 @@ env:
 logging:
   level:
     com.base.micro.dao: debug
+#OSS bucket
+bucketName: kc-bucket   
 wx:
   info:
     appId: wx2d32521842d398fd
